@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+            padding: 20px;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .profile {
+            text-align: center;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+            width: 100%;
+            max-width: 600px;
+        }
+        .profile img {
+            width: 100px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        .nav-links a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+        .content {
+            width: 100%;
+            max-width: 800px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+            margin-top: 20px;
+        }
+        .content h1, .content p {
+            text-align: center;
+        }
+        .projects, .reviews, .experience {
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+        .card {
+            background: #fff;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+            width: 100%;
+            max-width: 300px;
+            text-align: center;
+        }
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .isi{
+            padding: 50px;
+            padding-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <img src="https://static.vecteezy.com/system/resources/previews/001/840/612/non_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg" alt="Profile Picture">
+            <h2>Wira Kusuma Phandawa</h2> <br>
+            <p><b>Frontend Developer</b></p> <br>
+            <nav class="nav-links">
+                <a href="Homepage.html">Homepage</a>
+                <a href="Projects.html">Projects</a>
+                <a href="Articles.html">Articles</a>
+                <a href="Contact.html">Contact</a>
+            </nav>
+        </div>
+
+        <div class="content">
+            <h1>Projects</h1>
+            <div class="projects">
+                <div class="card">HTML Only Portfolio</div>
+                <div class="card">Calculator</div>
+                <div class="card">Quiz App</div>
+                <div class="card">Countdown Timer</div>
+                <div class="card">Product Upcoming Page</div>
+            </div>
+        </div>
+
+        <div class="content">
+            <h1>Work Experience</h1>
+            <div class="experience">
+                <div class="card">roadmap.sh - Completed all frontend projects</div>
+                <div class="card">Open Source - Contributed to 50 projects, gained 200 GitHub Stars <br><a href="https://github.com/Lordwalker11" target="_blank">My Github</a></div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="isi">
+                <h1>Education</h1><br>
+                <p>High School in sutomo 2.</p><br>
+                <h3>Courses:</h3> <br>
+                <ul>
+                    <li>Object Oriented Programming</li>
+                    <li>Data Structures and Algorithms</li>
+                    <li>Web Engineering</li>
+                    <li>Artificial Intelligence</li>
+                    <li>Human Computer Interaction</li>
+                    <li>Computer Graphics</li>
+                    <li>Database Management Systems</li>
+                    <li>Distributed Database Systems</li>
+                    <li>Discrete Mathematics</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="content">
+            <h1>Reviews from Teachers</h1>
+            <div class="reviews">
+                <div class="card">Wira Kusuma Phandawa was a brilliant student always stood out with his assignments. <br><br> - Assistant Professor</div>
+                <div class="card">One of the most hardworking and dedicated students I've taught. <br><br> - Lecturer</div>
+            </div>
+        </div>
+
+        <footer>
+            &copy; 2025 All rights reserved
+        </footer>
+    </div>
+</body>
+</html>
